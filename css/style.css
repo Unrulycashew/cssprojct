@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border: red solid;
+    flex-basis: auto;
+    
+}
+
+.mainhead {
+    border: green solid;
+    margin-right: 100px;
+    flex-grow: 1;
+    padding-left: 140px;
+    flex-shrink: 0;
+}
+
+.hlink {
+    border: yellow solid;
+}
+
+.linkbox {
+    display: flex;
+    border: lime solid;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.context {
+    display: flex;
+    border: orange solid;
+    flex-direction: column;
+}
