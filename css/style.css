@@ -46,6 +46,8 @@ body {
     flex-basis: 0;
     border: purple solid;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .blkdg {
@@ -53,6 +55,7 @@ body {
     border: gold solid;
     flex-grow: 1;
     flex-basis: 0;
+    justify-content: center;
 }
 
 .dog {
