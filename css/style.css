@@ -100,3 +100,18 @@ body {
     max-width: 200px;
     
 }
+
+.midder2 {
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-wrap: break-word 20ch; */
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 30%;
+}
