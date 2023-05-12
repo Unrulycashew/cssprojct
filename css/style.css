@@ -5,6 +5,7 @@ body {
 
 .color {
     background-color: #1F2937;
+    padding-bottom: 60px;
 }
 
 .header {
@@ -43,6 +44,7 @@ body {
     border: orange solid;
     flex-basis: 0;
     justify-content: space-evenly;
+    padding-bottom: 40px;
 }
 
 .context1 {
@@ -61,6 +63,8 @@ body {
     flex-grow: 1;
     flex-basis: 0;
     justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .dog {
@@ -75,16 +79,20 @@ body {
 .midder1 {
     border: blue solid;
     /* display: flex; */
-    
+    flex-shrink: 1;
+    flex-basis: 0;
     text-align: center;
+    
 }
 
 .imgs {
     display: flex;
     border: lime solid;
     justify-content: center;
-    gap: 52px;
+    gap: 1%;
     margin-bottom: 100px;
+    flex-shrink: 1;
+    
 }
 
 .seasons {
@@ -93,6 +101,9 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 1rem;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: ;
 }
 
 .red {
@@ -114,4 +125,38 @@ body {
 
 .quote {
     width: 30%;
+}
+
+.footer1 {
+    display: flex;
+    border: yellow solid;
+    justify-content: center;
+    padding: 100px;
+}
+
+.blue {
+    background-color: #3288F6;
+    display: flex;
+    border-radius: 8px;
+    padding: 2rem 3rem 2rem 3rem;
+    align-items: center;
+    
+}
+
+.sign2 {
+    height: 25px;
+    border: burlywood solid;
+    margin-bottom: -20px;
+    width: 70px;
+}
+
+.call {
+    border: red solid;
+    padding-right: 1rem;
+    align-items: center;
+
+}
+
+.action {
+    margin-bottom: -15px;  
 }
